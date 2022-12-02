@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    background-color: darkgray;
+}
+
+div.headColumn {
+    float: left;
+    width: 33%;
+    height: 78px;
+    
+    line-height: 70px;
+}
+
+.logo {
+    width: 70px;
+    display: block;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cart {
+    width: 60px;
+    display: block;
+    margin: 15px;
+    right: 15px;
+    position: absolute;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.book {
+    width: 33%;
+    float: left;
+    height: 300px;
+}
+
+div.book > div {
+    width: 50%;
+    margin: 20px auto;
+}
+
+input.buyButton {
+    color: #3B3B3B;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+}
+
+span#quantity {
+    right: 50px;
+    top: -20px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
